@@ -1,0 +1,94 @@
+/*ESTILOS INDEX*/
+.titulos{
+    font-family: 'Anton', sans-serif;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes aparecer{
+    from{
+        opacity: 1;
+    }
+    to{
+       opacity:0;
+        }
+}
+
+.nav-link{
+    font-size: 1.25rem;
+}
+h1{
+    font-size: 6rem;
+    font-family: 'Anton', sans-serif;
+}
+h2{
+    text-align: center;
+}
+.frase {
+    font-family: 'Anton', sans-serif;
+    font-style:italic ;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.text-center {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+/*ESTILOS TITULOS DEMAS HTML*/
+.tituloPrincipal{
+    font-size: 3rem;
+    font-family: 'Anton', sans-serif;
+    padding: 1rem;
+    background-image: linear-gradient(gray,white);
+}
+/*ESTILOS PRODUCTOS.HTML*/
+.carousel-control-prev-icon {
+    background-color: black;
+}
+.carousel-control-next-icon{
+    background-color: black;
+}
+/*ESTILOS COMPRASOSTENIBLE.HTML*/
+.videoLink{
+    background-image: linear-gradient(to top,gray,white);
+}
+/*ESTILOS CONTACTO*/
+.formulario {
+    width: 50%;
+    height: 50%;
+    padding: 30px;
+    margin: 10px auto;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: lighter;
+}
+.formulario legend {
+    font-size: 2rem;
+    text-align: center;
+}
+.formulario fieldset {
+    border: 5px solid rgb(150, 146, 146);
+    border-radius: 5%;
+    border-style: double;
+    padding: 50px;
+}
+.send{
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.reset{
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/*ESTILOS FOOTER*/
+
+.footFrase{
+    font-size: 1rem;
+}
